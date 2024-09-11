@@ -31,17 +31,21 @@ h4 {
     font-size: 2em;
 }
 
-img {
-    background-color: #77625C;
-}
-
 /* Navigation */
 .nav {
     position: sticky;
     top: 0;
     z-index: 1000;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    background-color: #F1E7D0;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.08);
+}
+
+.nav img {
+    max-height: 40px;
+    width: auto;
 }
 
 /* Page setup */
@@ -98,12 +102,13 @@ img {
     display: flex;
     flex-direction: row;
     max-width: 80vw;
+    min-height: 400px;
     padding: 20px;
     margin-bottom: 160px;
 }
 
 .testimonial-carousel {
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     flex-direction: row;
 }
@@ -123,7 +128,7 @@ img {
 }
 
 .testimonial-text {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: white;
     font-weight: 100;
     margin-bottom: 10px;
